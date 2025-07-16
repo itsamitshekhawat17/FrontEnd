@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+bower_components/
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.coverage
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Parcel cache
+.cache/
+
+# Next.js build output
+.next/
+
+# Svelte build output
+.svelte-kit/
+
+# Storybook build output
+.storybook-static/
+
+# Coverage reports
+coverage/
+
+# Test output
+test-results/
