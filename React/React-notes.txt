@@ -1,0 +1,16 @@
+why react?
+facebook ko ek problem aayi ki wo real time me likes and notification nahi dhikha
+paa rhe the , unko aisa show krne ke liye page ko baar baar reload karna pad rha 
+tha beacuse  they were using php . to facebook ke hi ek engineer ne ek 
+library banai (basically browser ka default nature hota hai ki agr page me kuch 
+change hota hai to wo pura DOM tree ko re render(refresh) krte hai ,to socho agr
+1 lakh changes hue(like cmmt ) to ek lakh baar pagr reload , browser crash ho jayega)
+ye library thodi agl treeke se kaam krti thi isme kya hota tha agr page me koi change 
+ho rha hai to DOM tree me koi update nhi hoga kyuki ye khudka ek virtual DOM
+tree rakhti hai to agr koi change hua to wo sirf whi changes hoga bakki khi bhi 
+koi frq nhi dalega
+
+basically apko react ki website me app jaisa feel hoga
+
+it has very less page reloads
+it has reusable components
